@@ -1,0 +1,29 @@
+.section5{
+    width: 100%;
+    background-color: rgb(0,48,114);
+    height: 330px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2{
+        font-size: 40px;
+    }
+    p{
+        width: 750px;
+      text-align: center;
+      font-size: 18px;
+      margin: 20px 0px;
+    }
+    button{
+        width: 13%;
+        height: 60px;
+        background-color: rgb(49,110,194);
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+}

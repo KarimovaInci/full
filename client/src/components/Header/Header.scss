@@ -1,0 +1,128 @@
+.custom__navbar {
+    padding: 0px 100px;
+
+    &__1 {
+        width: 100%;
+        height: 60px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__left {
+            width: 50%;
+            display: flex;
+            font-size: 16px;
+
+            h4 {
+                color: rgb(0, 48, 114);
+            }
+
+            p {
+                color: grey;
+            }
+
+        }
+
+        &__right {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            &__icon {
+                color: rgb(0, 48, 114);
+                ;
+            }
+        }
+    }
+
+    &__2 {
+        width: 100%;
+        height: 90px;
+        padding: 15px 0px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        &__left {
+            display: flex;
+            gap: 40px;
+            &__img{
+                width: 55%;
+                img{
+                    width: 100%;
+                    height:100%;
+                    object-fit: contain;
+                }
+            }
+
+            &__routes {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 30px;
+
+                ul {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+                    list-style: none;
+                    a{
+                        color: rgb(0,57,103);
+                        text-decoration: none;
+                        font-size: 18px;
+
+                    }
+                }
+            }
+
+        }
+        &__right{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            width: 25%;
+            button{
+                width: 35%;
+                height: 52px;
+                border: 2px solid rgb(50,109,196);
+                color: rgb(50,109,196);
+                background-color: white;
+                font-size: 17px;
+                font-weight: 600;
+            }
+            .question{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 12px;
+                .qstn{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: left;
+                }
+                .up{
+                    color: grey;
+                    font-size: 15px;
+                }
+                .down{
+                    color: rgb(0,57,103);
+                    font-weight: 600;
+                }
+            }
+            .icon{
+                font-size: 39px;
+                color: rgb(83, 82, 82);
+            }
+        }
+    }
+
+    .line {
+        width: 100%;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+    }
+
+}
